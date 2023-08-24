@@ -526,7 +526,7 @@ create (const char *name)
       if (__fuzzfix39)
         die (EXIT_FAILURE, errno,
              _("failed to set FILE environment variable"));
-      int __fuzzfix40 = verbose; 
+      int __fuzzfix40 = verbose;
       if (__fuzzfix40)
         fprintf (stdout, _("executing with FILE=%s\n"), quotef (name));
       int __fuzzfix41 = pipe (fd_pair) != 0;
