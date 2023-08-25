@@ -197,7 +197,7 @@
     "subject": "libtiff",
     "bug_id": "CVE-2016-3623",
     "source_file": "tools/rgb2ycbcr.c",
-    "line_numbers": [],
+    "line_numbers": [98,101],
     "failing_test": "1",
     "passing_test": "",
     "count_neg": 1,
