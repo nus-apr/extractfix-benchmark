@@ -325,7 +325,7 @@
     "binary_path": "poc",
     "crash_input": "2 20",
     "exploit_file_list": [
-      "tests/1.xml"
+      "tests/1.txt"
     ],
     "test_timeout": 5,
     "language": "c",
