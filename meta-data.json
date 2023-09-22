@@ -667,7 +667,7 @@
     "binary_path": "src/appl/imginfo",
     "crash_input": "-f $POC",
     "exploit_file_list": [
-      "tests/1"
+      "tests/1.jpg"
     ],
     "test_timeout": 5,
     "language": "c",
