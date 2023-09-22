@@ -332,7 +332,7 @@
     "config_script": "config.sh",
     "build_script": "build.sh",
     "test_script": "test.sh",
-    "bug_type": "Integer Overflow"
+    "bug_type": "Buffer Overflow"
   },
   {
     "id": 15,
