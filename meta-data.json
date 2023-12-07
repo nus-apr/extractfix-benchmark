@@ -612,14 +612,14 @@
     "line_numbers": [
       214
     ],
-    "failing_test": ["1.txt"],
+    "failing_test": ["exploit"],
     "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "src/make-prime-list",
     "crash_input": "5",
     "exploit_file_list": [
-      "tests/1.txt"
+      "tests/exploit"
     ],
     "test_timeout": 5,
     "language": "c",
