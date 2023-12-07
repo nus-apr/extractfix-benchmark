@@ -1,11 +1,19 @@
 #!/bin/bash
+
+if [ -z "$EXPERIMENT_DIR" ];
+then
+  echo "EXPERIMENT_DIR NOT SET, TAKING DEFAULT VALUE TO BE ~"
+fi
+EXPERIMENT_DIR=${EXPERIMENT_DIR:-"~"}
+
+
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 benchmark_name=$(echo $script_dir | rev | cut -d "/" -f 3 | rev)
 project_name=$(echo $script_dir | rev | cut -d "/" -f 2 | rev)
 bug_id=$(echo $script_dir | rev | cut -d "/" -f 1 | rev)
 dir_name=/experiment/$benchmark_name/$project_name/$bug_id
 
-TEST_ID=$2
+TEST_ID=$1
 BINARY_PATH="$dir_name/src/tools/tiffmedian"
 
 
@@ -15,9 +23,6 @@ then
 fi
 
 
-case "$1" in
-    1)
-        POC=$script_dir/tests/1.tif
-        timeout 10 $BINARY_PATH $POC foo > $BINARY_PATH.log 2>&1
-esac
+POC=$script_dir/tests/$TEST_ID
+timeout 10 $BINARY_PATH $POC foo > $BINARY_PATH.log 2>&1
 

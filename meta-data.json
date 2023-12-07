@@ -7,8 +7,8 @@
     "line_numbers": [
       3741
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/tiffcrop",
@@ -31,8 +31,8 @@
     "line_numbers": [
       551
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/thumbnail",
@@ -55,8 +55,8 @@
     "line_numbers": [
       352
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.gif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/gif2tiff",
@@ -79,8 +79,8 @@
     "line_numbers": [
       785
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/rgb2ycbcr",
@@ -103,8 +103,8 @@
     "line_numbers": [
       65
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/tiffsplit",
@@ -128,8 +128,8 @@
       2443,
       2700
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/tiff2ps",
@@ -152,8 +152,8 @@
     "line_numbers": [
       2898
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/tiff2pdf",
@@ -176,8 +176,8 @@
     "line_numbers": [
       1634
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/tiffcp",
@@ -198,8 +198,8 @@
     "bug_id": "CVE-2016-3623",
     "source_file": "tools/rgb2ycbcr.c",
     "line_numbers": [98,101],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/rgb2ycbcr",
@@ -222,8 +222,8 @@
     "line_numbers": [
       1628
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/tiffcp",
@@ -246,8 +246,8 @@
     "line_numbers": [
       792
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.tif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/tiffmedian",
@@ -270,8 +270,8 @@
     "line_numbers": [
       9290
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.bin"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "binutils/readelf",
@@ -294,8 +294,8 @@
     "line_numbers": [
       2440
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.bin"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "binutils/nm-new",
@@ -318,8 +318,8 @@
     "line_numbers": [
       464
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.txt"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "poc",
@@ -342,8 +342,8 @@
     "line_numbers": [
       9837
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.txt"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "xmllint",
@@ -366,8 +366,8 @@
     "line_numbers": [
       2516
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.txt"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "xmllint",
@@ -390,8 +390,8 @@
     "line_numbers": [
       4079
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.xml"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "xmllint",
@@ -414,8 +414,8 @@
     "line_numbers": [
       1197
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.xml"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "xmllint",
@@ -438,8 +438,8 @@
     "line_numbers": [
       145
     ],
-    "failing_test": "1,2,3,4,5",
-    "passing_test": "",
+    "failing_test": ["1.bmp","2.bmp","3.bmp","4.bmp","5.bmp"],
+    "passing_test": [],
     "count_neg": 5,
     "count_pos": 0,
     "binary_path": "cjpeg",
@@ -466,8 +466,8 @@
     "line_numbers": [
       505
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.jpg"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "build/djpeg",
@@ -490,8 +490,8 @@
     "line_numbers": [
       716
     ],
-    "failing_test": "1,2",
-    "passing_test": "",
+    "failing_test": ["1.jpg","2.jpg"],
+    "passing_test": [],
     "count_neg": 2,
     "count_pos": 0,
     "binary_path": "djpeg",
@@ -516,8 +516,8 @@
       326,
       333
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.gif"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "djpeg",
@@ -540,8 +540,8 @@
     "line_numbers": [
       290
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.txt"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "src/shred",
@@ -564,14 +564,14 @@
     "line_numbers": [
       985
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["exploit"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "src/split",
     "crash_input": "-n7/75 7",
     "exploit_file_list": [
-      "/dev/null"
+      "tests/exploit"
     ],
     "test_timeout": 5,
     "language": "c",
@@ -588,8 +588,8 @@
     "line_numbers": [
       1236
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.txt"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "src/pr",
@@ -612,8 +612,8 @@
     "line_numbers": [
       214
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.txt"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "src/make-prime-list",
@@ -636,8 +636,8 @@
     "line_numbers": [
       515
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.j2k"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "src/appl/imginfo",
@@ -660,8 +660,8 @@
     "line_numbers": [
       1234
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.jpg"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "src/appl/imginfo",
@@ -684,8 +684,8 @@
     "line_numbers": [
       178
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.mpg"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/target_dec_cavs_fuzzer",
@@ -708,8 +708,8 @@
     "line_numbers": [
       1034
     ],
-    "failing_test": "1",
-    "passing_test": "",
+    "failing_test": ["1.mpg"],
+    "passing_test": [],
     "count_neg": 1,
     "count_pos": 0,
     "binary_path": "tools/target_dec_cavs_fuzzer",
