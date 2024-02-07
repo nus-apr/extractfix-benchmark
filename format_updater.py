@@ -7,7 +7,7 @@ x.close()
 for entry in contents:
     entry["lanuage"]="c"
     entry["src"] = {
-        "root_abspath": "/experiment/{subject}/{bug_id}/src".format(
+        "root_abspath": "/experiment/extractfix/{subject}/{bug_id}/src".format(
             subject=entry["subject"], bug_id=entry["bug_id"]
         ),
         "entrypoint": {

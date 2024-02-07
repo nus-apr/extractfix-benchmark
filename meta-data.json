@@ -25,7 +25,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libtiff/CVE-2016-5321/src",
+            "root_abspath": "/experiment/extractfix/libtiff/CVE-2016-5321/src",
             "entrypoint": {
                 "file": "tools/tiffcrop.c",
                 "function": "main"
@@ -69,7 +69,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libtiff/CVE-2014-8128/src",
+            "root_abspath": "/experiment/extractfix/libtiff/CVE-2014-8128/src",
             "entrypoint": {
                 "file": "tools/thumbnail.c",
                 "function": "main"
@@ -113,7 +113,7 @@
         "test_script": "test.sh",
         "bug_type": "API Specific",
         "src": {
-            "root_abspath": "/experiment/libtiff/CVE-2016-3186/src",
+            "root_abspath": "/experiment/extractfix/libtiff/CVE-2016-3186/src",
             "entrypoint": {
                 "file": "tools/gif2tiff.c",
                 "function": "main"
@@ -157,7 +157,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libtiff/CVE-2016-5314/src",
+            "root_abspath": "/experiment/extractfix/libtiff/CVE-2016-5314/src",
             "entrypoint": {
                 "file": "tools/rgb2ycbcr.c",
                 "function": "main"
@@ -201,7 +201,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libtiff/CVE-2016-9273/src",
+            "root_abspath": "/experiment/extractfix/libtiff/CVE-2016-9273/src",
             "entrypoint": {
                 "file": "tools/tiffsplit.c",
                 "function": "main"
@@ -246,7 +246,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libtiff/bugzilla-2633/src",
+            "root_abspath": "/experiment/extractfix/libtiff/bugzilla-2633/src",
             "entrypoint": {
                 "file": "tools/tiff2ps.c",
                 "function": "main"
@@ -291,7 +291,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libtiff/CVE-2016-10094/src",
+            "root_abspath": "/experiment/extractfix/libtiff/CVE-2016-10094/src",
             "entrypoint": {
                 "file": "tools/tiff2pdf.c",
                 "function": "main"
@@ -335,7 +335,7 @@
         "test_script": "test.sh",
         "bug_type": "Integer Overflow",
         "src": {
-            "root_abspath": "/experiment/libtiff/CVE-2017-7601/src",
+            "root_abspath": "/experiment/extractfix/libtiff/CVE-2017-7601/src",
             "entrypoint": {
                 "file": "tools/tiffcp.c",
                 "function": "main"
@@ -380,7 +380,7 @@
         "test_script": "test.sh",
         "bug_type": "Divide by Zero",
         "src": {
-            "root_abspath": "/experiment/libtiff/CVE-2016-3623/src",
+            "root_abspath": "/experiment/extractfix/libtiff/CVE-2016-3623/src",
             "entrypoint": {
                 "file": "tools/rgb2ycbcr.c",
                 "function": "main"
@@ -425,7 +425,7 @@
         "test_script": "test.sh",
         "bug_type": "Divide by Zero",
         "src": {
-            "root_abspath": "/experiment/libtiff/CVE-2017-7595/src",
+            "root_abspath": "/experiment/extractfix/libtiff/CVE-2017-7595/src",
             "entrypoint": {
                 "file": "tools/tiffcp.c",
                 "function": "main"
@@ -469,7 +469,7 @@
         "test_script": "test.sh",
         "bug_type": "Divide by Zero",
         "src": {
-            "root_abspath": "/experiment/libtiff/bugzilla-2611/src",
+            "root_abspath": "/experiment/extractfix/libtiff/bugzilla-2611/src",
             "entrypoint": {
                 "file": "tools/tiffmedian.c",
                 "function": "main"
@@ -513,7 +513,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/binutils/CVE-2018-10372/src",
+            "root_abspath": "/experiment/extractfix/binutils/CVE-2018-10372/src",
             "entrypoint": {
                 "file": "binutils/readelf.c",
                 "function": "main"
@@ -557,7 +557,7 @@
         "test_script": "test.sh",
         "bug_type": "Divide by Zero",
         "src": {
-            "root_abspath": "/experiment/binutils/CVE-2017-15025/src",
+            "root_abspath": "/experiment/extractfix/binutils/CVE-2017-15025/src",
             "entrypoint": {
                 "file": "binutils/nm-new.c",
                 "function": "main"
@@ -601,7 +601,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libxml2/CVE-2016-1834/src",
+            "root_abspath": "/experiment/extractfix/libxml2/CVE-2016-1834/src",
             "entrypoint": {
                 "file": "poc.c",
                 "function": "main"
@@ -645,7 +645,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libxml2/CVE-2016-1838/src",
+            "root_abspath": "/experiment/extractfix/libxml2/CVE-2016-1838/src",
             "entrypoint": {
                 "file": "xmllint.c",
                 "function": "main"
@@ -689,7 +689,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libxml2/CVE-2016-1839/src",
+            "root_abspath": "/experiment/extractfix/libxml2/CVE-2016-1839/src",
             "entrypoint": {
                 "file": "xmllint.c",
                 "function": "main"
@@ -733,7 +733,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libxml2/CVE-2012-5134/src",
+            "root_abspath": "/experiment/extractfix/libxml2/CVE-2012-5134/src",
             "entrypoint": {
                 "file": "xmllint.c",
                 "function": "main"
@@ -777,7 +777,7 @@
         "test_script": "test.sh",
         "bug_type": "Null Pointer Dereference",
         "src": {
-            "root_abspath": "/experiment/libxml2/CVE-2017-5969/src",
+            "root_abspath": "/experiment/extractfix/libxml2/CVE-2017-5969/src",
             "entrypoint": {
                 "file": "xmllint.c",
                 "function": "main"
@@ -829,7 +829,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libjpeg/CVE-2018-14498/src",
+            "root_abspath": "/experiment/extractfix/libjpeg/CVE-2018-14498/src",
             "entrypoint": {
                 "file": "cjpeg.c",
                 "function": "main"
@@ -873,7 +873,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libjpeg/CVE-2018-19664/src",
+            "root_abspath": "/experiment/extractfix/libjpeg/CVE-2018-19664/src",
             "entrypoint": {
                 "file": "build/djpeg.c",
                 "function": "main"
@@ -919,7 +919,7 @@
         "test_script": "test.sh",
         "bug_type": "Null Pointer Dereference",
         "src": {
-            "root_abspath": "/experiment/libjpeg/CVE-2017-15232/src",
+            "root_abspath": "/experiment/extractfix/libjpeg/CVE-2017-15232/src",
             "entrypoint": {
                 "file": "djpeg.c",
                 "function": "main"
@@ -964,7 +964,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/libjpeg/CVE-2012-2806/src",
+            "root_abspath": "/experiment/extractfix/libjpeg/CVE-2012-2806/src",
             "entrypoint": {
                 "file": "djpeg.c",
                 "function": "main"
@@ -1009,7 +1009,7 @@
         "test_script": "test.sh",
         "bug_type": "Integer Overflow",
         "src": {
-            "root_abspath": "/experiment/coreutils/gnubug-26545/src",
+            "root_abspath": "/experiment/extractfix/coreutils/gnubug-26545/src",
             "entrypoint": {
                 "file": "src/shred.c",
                 "function": "main"
@@ -1053,7 +1053,7 @@
         "test_script": "test.sh",
         "bug_type": "API Specific",
         "src": {
-            "root_abspath": "/experiment/coreutils/gnubug-25003/src",
+            "root_abspath": "/experiment/extractfix/coreutils/gnubug-25003/src",
             "entrypoint": {
                 "file": "src/split.c",
                 "function": "main"
@@ -1097,7 +1097,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/coreutils/gnubug-25023/src",
+            "root_abspath": "/experiment/extractfix/coreutils/gnubug-25023/src",
             "entrypoint": {
                 "file": "src/pr.c",
                 "function": "main"
@@ -1141,7 +1141,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/coreutils/gnubug-19784/src",
+            "root_abspath": "/experiment/extractfix/coreutils/gnubug-19784/src",
             "entrypoint": {
                 "file": "src/make-prime-list.c",
                 "function": "main"
@@ -1185,7 +1185,7 @@
         "test_script": "test.sh",
         "bug_type": "Divide by Zero",
         "src": {
-            "root_abspath": "/experiment/jasper/CVE-2016-8691/src",
+            "root_abspath": "/experiment/extractfix/jasper/CVE-2016-8691/src",
             "entrypoint": {
                 "file": "src/appl/imginfo.c",
                 "function": "main"
@@ -1229,7 +1229,7 @@
         "test_script": "test.sh",
         "bug_type": "Integer Overflow",
         "src": {
-            "root_abspath": "/experiment/jasper/CVE-2016-9387/src",
+            "root_abspath": "/experiment/extractfix/jasper/CVE-2016-9387/src",
             "entrypoint": {
                 "file": "src/appl/imginfo.c",
                 "function": "main"
@@ -1273,7 +1273,7 @@
         "test_script": "test.sh",
         "bug_type": "Buffer Overflow",
         "src": {
-            "root_abspath": "/experiment/ffmpeg/CVE-2017-9992/src",
+            "root_abspath": "/experiment/extractfix/ffmpeg/CVE-2017-9992/src",
             "entrypoint": {
                 "file": "tools/target_dec_cavs_fuzzer.c",
                 "function": "main"
@@ -1317,7 +1317,7 @@
         "test_script": "test.sh",
         "bug_type": "Integer Overflow",
         "src": {
-            "root_abspath": "/experiment/ffmpeg/bugchrom-1404/src",
+            "root_abspath": "/experiment/extractfix/ffmpeg/bugchrom-1404/src",
             "entrypoint": {
                 "file": "tools/target_dec_cavs_fuzzer.c",
                 "function": "main"
